@@ -11,6 +11,15 @@ end
 
 ## Create methods for checking row, column, and diagonal matches
 
+def checkColumn
+end
+
+def checkRow
+end
+
+def checkDiagonal
+end
+
 
 
 ## Return the results of the game
