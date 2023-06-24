@@ -7,6 +7,14 @@ end
 
 ## Create funciton to prompt user to update array by choosing row/column
 
+def userOneInput 
+    get
+end
+
+def userTwoInput
+    get
+end
+
 
 
 ## Create methods for checking row, column, and diagonal matches
