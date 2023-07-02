@@ -1,18 +1,16 @@
 ## Create nested array of arrays to form 3x3 grid
 
-def newGame 
-    Array.new(3) {Array.new(3)}
+def new_board 
+    Array.new(3) {Array.new(3, '_')}
 end 
 
 
 ## Create funciton to prompt user to update array by choosing row/column
 
-def userOneInput 
-    get
-end
-
-def userTwoInput
-    get
+def player_input(player, token) 
+    puts "Ready #{player}! Make your selection!"
+    input = gets.chomp
+    input_integer = input.to_i 
 end
 
 
@@ -32,4 +30,4 @@ end
 
 ## Return the results of the game
 
-p newGame
+p newBoard
